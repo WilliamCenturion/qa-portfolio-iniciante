@@ -51,3 +51,32 @@ O sistema bloqueou o acesso e exibiu uma mensagem de erro.
 **Observação:** Este é um exercício teórico de valores-limite. Os resultados não foram validados em uma aplicação real.
 
 **Status:** Exercício documentado
+---
+
+## CT-007 — Login com usuário bloqueado
+
+**Objetivo:** Verificar se o sistema impede o acesso de um usuário bloqueado.
+
+- **Aplicação:** Sauce Demo
+- **Tipo de teste:** Teste funcional manual
+- **Usuário:** `locked_out_user`
+- **Senha:** `secret_sauce`
+
+### Passos para execução
+
+1. Acessar a página de login do Sauce Demo.
+2. Informar o usuário `locked_out_user`.
+3. Informar a senha `secret_sauce`.
+4. Clicar em Login.
+
+### Resultado esperado
+
+O sistema deve bloquear o acesso e exibir uma mensagem informando que o usuário está bloqueado.
+
+### Resultado obtido
+
+O sistema bloqueou o acesso e exibiu a mensagem:
+
+`Epic sadface: Sorry, this user has been locked out.`
+
+**Status:** PASSOU (PASS)
