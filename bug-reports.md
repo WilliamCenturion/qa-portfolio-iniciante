@@ -43,7 +43,6 @@ As imagens incorretas podem confundir os usuários e prejudicar a apresentação
 ### Severidade e prioridade
 
 Ainda não classificadas definitivamente. Devem ser avaliadas de acordo com o impacto e os critérios do projeto.
-
 ### Evidências
 
 - Captura de tela da listagem mostrando imagens incorretas.
