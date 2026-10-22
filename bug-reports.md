@@ -47,9 +47,14 @@ Cada produto deve apresentar a imagem correspondente ao item anunciado, tanto na
 
 Imagens incorretas podem confundir os usuários, dificultar a identificação dos produtos e prejudicar a apresentação visual da loja.
 
+
 ### Severidade e prioridade
 
-Ainda não classificadas definitivamente. A classificação deverá considerar o alcance do defeito, seu impacto na experiência do usuário e os critérios adotados no projeto.
+**Severidade:** Média  
+**Prioridade:** Média
+
+**Justificativa:** As imagens incorretas prejudicam a identificação visual dos produtos e podem confundir os usuários. Até o momento, não foi verificado se o defeito impede a conclusão de uma compra. A classificação poderá ser revisada conforme novas evidências e os critérios do projeto.
+
 
 ### Evidências
 
