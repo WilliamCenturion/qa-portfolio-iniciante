@@ -1,6 +1,7 @@
+
 # Bug Reports — Sauce Demo
 
-## BUG-001 — Imagem incorreta na listagem de produtos
+## BUG-001 — Imagens incorretas nos produtos
 
 **Aplicação:** Sauce Demo  
 **Tipo:** Defeito visual / funcional  
@@ -12,7 +13,9 @@
 
 Ao acessar a listagem de produtos com o usuário `problem_user`, foi observada a imagem de um cachorro no lugar das imagens correspondentes a vários produtos.
 
-Ao abrir a página de detalhes da jaqueta (`Sauce Labs Fleece Jacket`), a imagem apresentada corresponde à jaqueta.
+Na página de detalhes da jaqueta (`Sauce Labs Fleece Jacket`), a imagem apresentada correspondia à jaqueta.
+
+Na verificação adicional da mochila (`Sauce Labs Backpack`), foi observada uma imagem incorreta tanto na listagem quanto na página de detalhes.
 
 ### Pré-condições
 
@@ -25,33 +28,47 @@ Ao abrir a página de detalhes da jaqueta (`Sauce Labs Fleece Jacket`), a imagem
 2. Entrar com o usuário `problem_user`.
 3. Utilizar a senha `secret_sauce`.
 4. Observar as imagens na listagem de produtos.
-5. Abrir o produto `Sauce Labs Fleece Jacket`.
-6. Comparar a imagem da listagem com a imagem dos detalhes.
+5. Abrir o produto `Sauce Labs Fleece Jacket` e observar sua imagem.
+6. Abrir o produto `Sauce Labs Backpack` e observar sua imagem.
+7. Comparar as imagens observadas com os produtos correspondentes.
 
 ### Resultado esperado
 
-Cada produto deve apresentar a imagem correspondente ao item anunciado.
+Cada produto deve apresentar a imagem correspondente ao item anunciado, tanto na listagem quanto na página de detalhes.
 
 ### Resultado observado
 
-Na listagem, a imagem de um cachorro aparece em vários cartões de produtos. Na página de detalhes da jaqueta, aparece a imagem da própria jaqueta.
+- **Listagem:** foi observada a imagem de um cachorro em vários cartões de produtos.
+- **Detalhes da jaqueta:** a imagem apresentada correspondia à jaqueta.
+- **Listagem da mochila:** foi observada uma imagem incorreta.
+- **Detalhes da mochila:** foi observada uma imagem incorreta.
 
 ### Impacto potencial
 
-As imagens incorretas podem confundir os usuários e prejudicar a apresentação dos produtos.
+Imagens incorretas podem confundir os usuários, dificultar a identificação dos produtos e prejudicar a apresentação visual da loja.
 
 ### Severidade e prioridade
 
-Ainda não classificadas definitivamente. Devem ser avaliadas de acordo com o impacto e os critérios do projeto.
+Ainda não classificadas definitivamente. A classificação deverá considerar o alcance do defeito, seu impacto na experiência do usuário e os critérios adotados no projeto.
+
 ### Evidências
 
 - Captura de tela da listagem mostrando imagens incorretas.
 - Captura de tela dos detalhes da jaqueta mostrando a imagem correspondente.
+- Capturas de tela da listagem e dos detalhes da mochila, caso tenham sido registradas.
 
 ### Limitações da verificação
 
-A comparação adicional com a página de detalhes da mochila não foi concluída. Não há evidência suficiente para afirmar qual imagem aparece nessa página.
+Os resultados documentados correspondem aos produtos efetivamente verificados: a jaqueta e a mochila.
+
+Não foram registrados detalhes visuais suficientes para descrever exatamente qual imagem incorreta apareceu na página de detalhes da mochila. Outros produtos não verificados não devem ser considerados defeituosos sem evidências adicionais.
 
 ### Conclusão
 
-Foi observada uma inconsistência entre as imagens da listagem e a imagem dos detalhes da jaqueta. O defeito foi documentado com base nas evidências disponíveis, sem generalizar para páginas que não foram verificadas.
+Foram observadas inconsistências nas imagens dos produtos ao utilizar o usuário `problem_user`.
+
+Na jaqueta `Sauce Labs Fleece Jacket`, a imagem dos detalhes correspondia ao produto, apesar da imagem incorreta observada na listagem.
+
+Na mochila `Sauce Labs Backpack`, foram observadas imagens incorretas tanto na listagem quanto na página de detalhes.
+
+O defeito foi documentado com base nos resultados observados. A severidade e a prioridade permanecem pendentes de classificação.
