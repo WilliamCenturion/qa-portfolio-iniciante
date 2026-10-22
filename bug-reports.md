@@ -56,11 +56,13 @@ Imagens incorretas podem confundir os usuários, dificultar a identificação do
 **Justificativa:** As imagens incorretas prejudicam a identificação visual dos produtos e podem confundir os usuários. Até o momento, não foi verificado se o defeito impede a conclusão de uma compra. A classificação poderá ser revisada conforme novas evidências e os critérios do projeto.
 
 
+
 ### Evidências
 
-- Captura de tela da listagem mostrando imagens incorretas.
-- Captura de tela dos detalhes da jaqueta mostrando a imagem correspondente.
-- Capturas de tela da listagem e dos detalhes da mochila, caso tenham sido registradas.
+- Captura da listagem mostrando imagens incorretas: [BUG-001-listagem.png](evidencias/BUG-001-listagem.png).
+- A captura comprova que vários produtos apresentam a imagem de um cachorro na listagem.
+- As imagens das páginas de detalhes devem ser registradas separadamente quando disponíveis.
+
 
 ### Limitações da verificação
 
